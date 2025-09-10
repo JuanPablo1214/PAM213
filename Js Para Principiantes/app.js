@@ -1,13 +1,8 @@
-//condicionales
-let typecard = 'debid card'
+let names = ['ryan','joe','john'];
 
-switch(typecard) {
-    case 'debid card':
-        console.log('this is a debid card')
-        break;
-        case 'credit card':
-        console.log('this is a credit card')
-        break;
-    default:
-        console.log('no card')
+console.log(names.length);
+
+for(let i = 0; i < names.length; i--){
+console.log(names[i]);
+
 }
