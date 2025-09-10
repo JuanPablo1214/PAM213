@@ -1,18 +1,13 @@
 //condicionales
-let password = 'pepe121'
-let input = 'pepe1'
+let score = 70
 
-let result = input == password;
-
-if (result === true){
-
-    console.log('Login Correcto');
-
+if (score > 30){
+    console.log('You need to prctice more');
 }
 
-if (result === false){
-
-    console.log('Login Incorrecto');
-
+else if (score > 15){
+    console.log('Estas mejorando');
 }
-
+ else {
+    console.log('You need to follow this tutorial');
+ }
