@@ -1,12 +1,7 @@
-var nameuser ="jhon";
-let lastname= "caracter";
+//operadores
+let nomberone = 60;
+let nombertwo = 100;
 
-nameuser = 'pepe';
-const PI= 3.1415;
+let result = nomberone < nombertwo;
 
-console.log(PI);
-
-//camelcase
-let username = 'gordon';
-
-nombreDePersona;
+console.log(result);
