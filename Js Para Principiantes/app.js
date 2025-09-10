@@ -1,7 +1,18 @@
-//operadores
-let nomberone = 60;
-let nombertwo = 100;
+//condicionales
+let password = 'pepe121'
+let input = 'pepe1'
 
-let result = nomberone < nombertwo;
+let result = input == password;
 
-console.log(result);
+if (result === true){
+
+    console.log('Login Correcto');
+
+}
+
+if (result === false){
+
+    console.log('Login Incorrecto');
+
+}
+
