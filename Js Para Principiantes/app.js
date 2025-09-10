@@ -1,35 +1,12 @@
-//tipos de datos
-"Hello world" //String
-'Hello world' //String
+var nameuser ="jhon";
+let lastname= "caracter";
 
-//Number
-1000000
--2.3
+nameuser = 'pepe';
+const PI= 3.1415;
 
-// Boolean
-true
-false
+console.log(PI);
 
-//array
-['joe', 'ryan', 'matha']
-[1, 2, 3]
-[true, false, true, false]
+//camelcase
+let username = 'gordon';
 
-//object
-'ryan'
-70.4
-14
-true
-
-{
-    "username": 'ryan',
-    "score": 70.4
-    "hours": 14
-    "proffesional": true
-}
-{
-    "username": 'joe',
-    "score": 0.4
-    "hours": 1
-    "proffesional": false
-}
+nombreDePersona;
