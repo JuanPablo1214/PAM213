@@ -1,13 +1,13 @@
 //condicionales
-let score = 70
+let typecard = 'debid card'
 
-if (score > 30){
-    console.log('You need to prctice more');
+switch(typecard) {
+    case 'debid card':
+        console.log('this is a debid card')
+        break;
+        case 'credit card':
+        console.log('this is a credit card')
+        break;
+    default:
+        console.log('no card')
 }
-
-else if (score > 15){
-    console.log('Estas mejorando');
-}
- else {
-    console.log('You need to follow this tutorial');
- }
