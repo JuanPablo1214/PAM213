@@ -15,4 +15,4 @@ personas.forEach(p => {
 
 // 3. Usar reduce() para sumar todas las edades
 const totalEdades = personas.reduce((total, p) => total + p.edad, 0);
-console.log("Suma total de edades:", totalEdades);
+console.log("Suma total de edades:", totalEdades);//.2
