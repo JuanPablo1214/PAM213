@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
    botonesContainer:{
     marginTop: 25,
-    flexDirection: 'row',
+  
     alignItems: 'center',
     justifyContent: 'center',
     gap: 10,
