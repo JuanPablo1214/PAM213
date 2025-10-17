@@ -74,51 +74,33 @@ const styles = StyleSheet.create({
     {
         backgroundColor:"#1a1a1a",
     },
-
-
-    lightText:
-    {
+    lightText:{
         color: '#000',
     },
-    
-    darkText: 
-    {
+    darkText:{
         color:'#fff',
     },
-
-
-    title: 
-    {
+    title:{
         fontSize: 26,
         fontWeight:'bold',
         marginBottom: 25,
     },
-
-    section:
-    {
+    section:{
         alignItems: 'center',
         width: '30%',
         marginBottom: 25,
     },
-
-
-    subtitulo:
-    {
+    subtitulo:{
         fontSize: 20,
         fontWeight: '600',
         marginBottom: 15,
         textDecorationLine: 'underline',
     },
-
-    buttonContainer:
-    {
+    buttonContainer:{
         width: '100%',
         marginVertical: 5,
     },
-
-
-    switchRow:
-    {
+    switchRow:{
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -129,25 +111,17 @@ const styles = StyleSheet.create({
         width: '100%', 
         marginVertical:5,
     },
-
-    switchText:
-    {
+    switchText:{
         fontSize:16,
         fontWeight: '500',
     },
-
-    footer: 
-    {
+    footer: {
         marginTop:10,
         alignItems: 'center',
     },
-
-
-    estadoTexto:
-    {
+    estadoTexto:{
         fontSize: 15,
     },
 
-
-
+    
 })
