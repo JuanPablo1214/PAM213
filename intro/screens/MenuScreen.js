@@ -11,7 +11,6 @@ import ModalScreen from './ModalScreen'
 import BottomSheetScreen from './BottomSheetScreen'
 import RepasoScreen from './RepasoScreen'
 import { StatusBar } from 'expo-status-bar'
-import SaludFinancieraScreen from './SaludFinancieraScreen'
 
 export default function MenuScreen (){
   
