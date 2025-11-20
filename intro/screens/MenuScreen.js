@@ -11,6 +11,7 @@ import ModalScreen from './ModalScreen'
 import BottomSheetScreen from './BottomSheetScreen'
 import RepasoScreen from './RepasoScreen'
 import SectionListScreen from './SectionListScreen'
+import RecuperacionScreen from './RecuperacionScreen'
 import { StatusBar } from 'expo-status-bar'
 
 
@@ -41,6 +42,8 @@ export default function MenuScreen (){
             return <RepasoScreen/>
         case 'SectionList':
             return <SectionListScreen/>
+            case 'Recuperacion':
+            return <RecuperacionScreen/>
         case 'menu':
             default:
                 return (
@@ -58,7 +61,8 @@ export default function MenuScreen (){
                 <Button title="Pract: Modal" onPress={() => setScreen('Modal')} />
                 <Button title="Pract: Bottom Sheet" onPress={() => setScreen('Bottom Sheet')} />
                 <Button title="Pract: Repaso" onPress={() => setScreen('Repaso')} />
-                     <Button title="Pract: SectionList" onPress={() => setScreen('SectionList')} />
+                <Button title="Pract: SectionList" onPress={() => setScreen('SectionList')} />
+                    <Button title="Pract: Recuperacion" onPress={() => setScreen('Recuperacion')} />
           </View>
                     <StatusBar style='auto'/>
         </View>
